@@ -140,11 +140,13 @@ dependencies:
     - cython==0.29.21
     - deeplabcut==2.0.8
     - easydict==1.9
+    - filelock==3.0.12
     - idna==2.10
     - imageio==2.3.0
     - imgaug==0.4.0
     - keras==2.0.8
     - kiwisolver==1.2.0
+    - labelme==3.16.1
     - matplotlib==3.0.3
     - moviepy==0.2.3.5
     - networkx==2.5
@@ -152,6 +154,7 @@ dependencies:
     - pandas==0.21.0
     - patsy==0.5.1
     - pillow==7.2.0
+    - pysocks==1.7.1
     - pytz==2020.1
     - pywavelets==1.1.1
     - pyyaml==5.3.1
