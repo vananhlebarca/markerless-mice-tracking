@@ -609,4 +609,12 @@ def mouse_mrcnn_segmentation(components_info, frames_dir, background_dir, model_
 
     return components
 
-
+def check_mrcnn_model_path(model_dir):
+    dir_names = next(os.walk(model_dir))[1]
+    key = "mask_rcnn"
+    dir_names = filter(lambda f: f.startswith(key), dir_names)
+    dir_names = sorted(dir_names)
+    if not dir_names:
+        return False
+    else:
+        return True
