@@ -30,6 +30,16 @@ To track mice in new videos, you need to follow the steps in *pipeline/tracking_
 * Output of the workflow are two csv files storing coordinates of snout and tailbase corresponding to two mice: *features_mouse1_ensemble.csv* and *features_mouse2_ensemble.csv*. Besides that,
 all intermediate data generated are also saved.
 
+## Pretrained models and video samples 
+1. Mask-RCNN model
+https://drive.google.com/uc?export=download&id=17jWmHP8lmNhjROprMN4Exd9lfl-svFCA
+The model must be saved in the path:  *mrcnn_models/mask_rcnn_mouse_0025.h5*
+2. Deeplabcut model
+https://drive.google.com/uc?export=download&id=1HTDNhTKWRAxsFvK7m2dtNI5JgQAH_h2N
+The zip file must be extracted and saved in the path:  *dlc_models/dlc_mice_tracking
+
+3. Video examples and background photos:
+https://drive.google.com/drive/folders/1W3NCg_woHhlSPrmJy37irR2qIrVqlJf9?usp=sharing
 
 The current configuration allows you to track 2 mice in the videos, but you can expand to track more mice with proper configuration.
 
